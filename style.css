@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+}
+
+.main {
+    font-family: 'StratosSkyeng', sans-serif;
+    background-color: #D6D3CA;
+    width: 1400px;
+    padding: 400px 53px;
+    margin: 0;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.header {
+    margin-bottom: 42px;
+    border-top: 4px black;
+    border-bottom: 4px solid black;
+    text-align: right;
+}
+
+.header-date {
+    text-align: right;
+    font-size: 86px;
+}
+
+.header-title {
+    /* ... */
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: ;
+    border: 4px solid black;
+    margin-bottom: 37px;
+}
+
+.content-title {
+    /* ... */
+    font-style: italic;
+    /* ... */
+    /* ... */
+}
+
+.content-table {
+    vertical-align: top;
+}
+
+.table-row {
+    vertical-align: top;
+}
+
+.table-data {
+    padding-right: 27px;
+}
+
+.table-data-text,
+.table-data-text-last {
+    /* ... */
+}
+
+.table-data-text {
+    margin-bottom: 41px;
+}
+
+
+img {
+    width: 483px;
+    height: 550px;
+}
+
+.advert-title {
+    /* ... */
+    font-style: italic;
+    /* ... */
+    /* border: ; */
+    border-left: 0;
+    border-right: 0;
+}
+
+.adverts {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.advert-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 347px;
+    margin-right: 22px;
+}
+
+/* :last-of-type - это псевдокласс, который выбирает самый последний элемент из всех элементов одного типа (соседних) */
+.advert-item:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'StratosSkyeng';
+    src: url('stratosskyengweb-regular.woff');
+    src: url('stratosskyengweb-regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StratosSkyeng';
+    src: url('stratosskyengweb-medium.woff');
+    src: url('stratosskyengweb-medium.woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'StratosSkyeng';
+    src: url('stratosskyengweb-bold.woff');
+    src: url('stratosskyengweb-bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+}
